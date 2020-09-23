@@ -1,0 +1,96 @@
+body
+{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding:15px 10px 10px 10px;
+}
+.column1
+{
+    width:300px;
+    height: 900px;
+    border: 1px solid green;
+}
+.column2
+{
+    width: 700px;
+    height: 900px;
+    border:1px solid green;
+}
+img{
+    display:block;
+    border: 3px solid lightgreen;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+
+}
+h3{
+    padding-left: 15px;
+    font-family:cursive;
+    font-size: 25px;
+}
+h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight:bold;
+    font-style: italic;
+}
+p.r{
+    font-family:cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-left: 20px;
+}
+p.l{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+}
+p
+{
+    padding-left: 25px;
+}
+table,tr{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 90%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+progress {
+    text-align: center;
+    height: 1.5em;
+    width: 100%;
+    
+    /* Set the progressbar to relative */
+    position:relative;
+  }
+  progress:before {
+    content: attr(data-label);
+    font-size: 0.5em;
+    text-decoration: white;
+    
+    /*Position text over the progress bar */
+    position:absolute;
+    left:0;
+    right:0;
+  }
+td,th{
+
+    text-align: justify;
+    padding: 10px;
+}
+ul{
+    font-size: 20px;
+}
+ol{
+    font-size: 20px;
+}

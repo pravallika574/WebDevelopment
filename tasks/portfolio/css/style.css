@@ -1,0 +1,39 @@
+
+.card {
+  box-shadow: 4px 4px 4px 4px  lightcoral;
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  text-align: start;
+  padding-inline-start: 15px;
+  font-family: arial;
+}
+
+img{
+    box-shadow:1px 1px 1px 1px lightskyblue;
+    box-sizing:120px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right: 10px;
+    margin-top:10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline-start: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/* button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+} */

@@ -1,0 +1,53 @@
+{"basics":{
+    "image":"avatar.png",
+    "name":"William Johnes",
+    "phoneno":"9121352575",
+    "email":"johneswilliam7@gmail.com",
+    "address":"New York"
+  },
+  "ExtracircularActivites":[
+    {
+      "data":"Playing Shuttle"},{
+        "data":"Web browsing"}
+      
+      ],
+  "Careerobjective":{
+    "info":"To become a successful expert in the field of Information Technology by channelizing my technical knowledge and skills to ensure personal and professional growth and to contribute to the prosperity of the organization."
+  },
+  "education":[
+
+    {
+    "degree":"B.Tech",
+    "institute":"VIT",
+    "duration":"2012-2016",
+    "percentage":"83%"
+  },
+  {
+    "degree":"Intermedite",
+    "institute":"Velocity Junior College",
+    "duration":"2010-2012",
+      "percentage":"69.9%"
+  },
+  {
+    "degree":"SSC",
+    "institute":"Tatva Global School",
+    "duration":"2010",
+      "percentage":"65%"
+  }
+  ],
+  "skills":[{
+    "title":"Languages",
+    "data":["C","C++","JAVA","Python"]
+    },
+  {
+    "title":"DataBases",
+    "data":["SQL","MySQL","Oracle"]
+    }],
+    "achievements":[{
+      "data":"I was certfied by Great Learning Academy  Full Stack Developer."
+      },
+    {
+      "data":"I got  certificate in Full Stack Development ."
+      }
+    ]
+  }

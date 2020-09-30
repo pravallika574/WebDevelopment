@@ -1,0 +1,198 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #FF241D;
+  }
+  .childone{
+    border: 2px solid #1D98FF;
+    padding: 3%;
+    margin: 2%;
+    width: 30%;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  img{
+    width: 150px;
+    border: 2px solid #FF1D84;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .childtwo{
+    border: 3px solid #1D98FF;
+    padding: 3%;
+    margin: 2%;
+    width: 70%;
+  }
+  table,tr,td{
+    width:50%;
+    border-collapse: collapse;
+  }
+  td{
+    width: fit-content;
+    padding:2%
+  }
+  @media only screen and (min-width:320px) and (max-width: 480px){
+    .parent{
+      display: flex;
+      flex-direction: column;
+      border: 2px solid;
+    }
+    a,h2,h3,h4,p{
+      word-wrap: break-word;
+      font-size: medium;
+      text-align: start;
+      padding-left: 5px;
+    }
+    .childone{
+      border: 3px solid #1D98FF;
+      padding: 3%;
+      margin: 2%;
+      width: 30%;
+      font-size: 20px;
+      text-align: center;
+    }
+    img{
+      width:150px;
+      border: 5px solid #FF1D84;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .childtwo{
+      border: 2px solid #1D98FF;
+      padding: 3%;
+      margin: 2%;
+      width: 70%;
+    }
+    table,tr,td{
+      width:50%;
+      border-collapse: collapse;
+    }
+    td{
+      padding:2%;
+      width: fit-content;
+    }
+    h4{
+        word-wrap: break-word;
+        text-align: start;
+        padding-left: 5px;
+    }
+    h5 
+    {
+      font-size: medium;
+      text-align: start;
+      padding-left: 5px;
+    }
+    p,li{
+      text-align: start;
+      font-size: 20px;
+      padding-left: 5px;
+    }
+  
+  }
+  @media only screen and (min-width:481px) and (max-width:768px ){
+    .parent{
+      display: flex;
+      flex-direction: row;
+      border: 2px solid;
+    }
+    a,h3,h2,h4,p{
+      word-wrap: break-word;
+      font-size: medium;
+      text-align: start;
+      padding-left: 5px;
+    }
+    .childone{
+      border: 2px solid #1D98FF;
+      padding: 3%;
+      margin: 2%;
+      width: 30%;
+      /*text-align: left;*/
+      font-family: cursive;
+      font-style: italic;
+      font-size: 20px;
+    }
+    img{
+      width:150px;
+      border: 2px solid #FF1D84;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .childtwo{
+      border: 2px solid #1D98FF;
+      padding: 3%;
+      margin: 2%;
+      width: 70%;
+      font-style: italic;
+      font-family: sans-serif;
+    }
+    table,tr,td{
+      width:50%;
+      font-size: medium;
+    }
+    td{
+      padding:2%;
+      width: fit-content;
+    }
+    p,li{
+      text-align: start;
+      font-size: 15px;
+      padding-left: 5px;
+    }
+  }
+  @media only screen and (min-width:769px) and (max-width:1024px ){
+    .parent{
+      display: flex;
+      flex-direction: row;
+      border: 2px solid #FF241D;
+    }
+    a,h3,h4,h2,h5,p{
+      word-wrap: break-word;
+      font-size: medium;
+      text-align: start;
+      padding-left: 5px;
+    }
+    .childone{
+      border: 2px solid #1D98FF;
+      padding: 3%;
+      margin: 2%;
+      width: 30%;
+      text-align: center;
+      font-family: cursive;
+      font-style: italic;
+      font-size: 20px;
+    }
+    img{
+      width:150px;
+      border: 2px solid #FF1D84;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .childtwo{
+      border: 2px solid #1D98FF;
+      padding: 3%;
+      margin: 2%;
+      width: 70%;
+      font-style: italic;
+      font-family: sans-serif;
+    }
+    table,tr,td{
+      border-collapse: collapse;
+      width:50%;
+      
+    }
+    td{
+      padding:2%;
+      width: fit-content;
+
+
+    }
+    p,li{
+      text-align: start;
+      font-size: 15px;
+      padding-left: 5px;
+    }
+  }
